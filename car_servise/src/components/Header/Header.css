@@ -1,0 +1,67 @@
+header {
+    font-family: "Montserrat", Sans-serif;
+    border-bottom: #f18800 2px solid;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header .First {
+    height: 80px;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+header .First a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 400;
+}
+
+header .First a:hover {
+    color: #f18800 !important;
+    border-bottom: #f18800 2px solid;
+}
+
+header .Second {
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    height: 80px;
+    padding-right: 20px;
+}
+
+header  .button, .nav .button {
+    background-color: #f18800;
+    padding: 5px 0px;
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+    border-radius: 3px;
+    text-align: center;
+    width: 150px;
+    float: right;
+}
+header .phone{
+    height: 40px;
+    margin-top: 10px;
+}
+
+header .order{
+    display: flex;
+}
+
+.AllHeader {
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
