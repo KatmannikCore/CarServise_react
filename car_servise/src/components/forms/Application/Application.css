@@ -1,0 +1,48 @@
+.order_form, .order_modal{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    height:  500px;
+    width: 400px;
+    padding: 20px;
+
+}
+.order_form input, .order_modal input{
+    background: rgb(26, 25, 25);
+    color: white;
+    border: 1px gray solid;
+    margin: 2px;
+}
+.order_form .input-group-text,.order_modal .input-group-text {
+    background: black;
+    color: white;
+    border: 1px gray solid;
+    margin: 2px;
+    border-radius: 0;
+}
+.order_form {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+}
+.order_form hr{
+    color: #f18800;
+    opacity: .2;
+}
+
+.order_form .btn-warning{
+    float: right;
+}
+@media (max-width: 800px){
+    .order_form{
+        transform: translate(0, 25%);
+    }
+}
+
+@media (max-width: 600px){    
+    .order_form{
+        margin: 0 auto; 
+        width: 90%;
+        position: relative;
+        bottom: 120px;
+    }
+}

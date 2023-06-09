@@ -58,17 +58,17 @@ header .order{
     display: flex;
 }
 
-.heder_bottom {
+.header_bottom {
     display: flex;
     max-width: 80%;
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
 }
-.heder_top{
+.header_top{
     background: rgba(143, 134, 134, 0.2) !important;
 }
-.heder_top > div{
+.header_top > div{
     max-width: 1720px;
     margin: 0 auto; 
     padding: 5px;
@@ -81,7 +81,7 @@ header .order{
     font-size: 20px;
 }
 
-.heder_top img{
+.header_top img{
     height: 20px;
     width: 20px;
     margin-top: 8px;
@@ -98,4 +98,36 @@ header .order{
 }
 .number{
     color: aliceblue;
+}
+@media screen and (max-width: 1200px){
+    .header_bottom{
+        max-width: 100%;
+    }
+    header .Second img{
+        height: 50px;
+    }
+
+}
+@media screen and (max-width: 950px){
+    header .number{
+        display: none;
+    }
+}
+@media screen and (max-width: 800px){
+    header .Second img{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 600px){
+    .header_bottom{
+        display: none;
+    }
+    header{
+        border-bottom: 0px;
+    }
+    .nav-toggle{
+        background: none !important;
+    }
+
 }

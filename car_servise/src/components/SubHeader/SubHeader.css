@@ -1,0 +1,18 @@
+.start {
+    height: 650px;
+    background-image: url("../../access/images/body/automobile.jpg");
+    background-size: 100% 100%;
+}
+
+.start h1 {
+    max-width: 80%;
+    margin: 0 auto;
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 80px;
+    position: relative;
+    top: 15%;
+    opacity: 1;
+    color: #f18800;
+}

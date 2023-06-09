@@ -4,10 +4,11 @@ import mark from '../../access/images/header/mark.png'
 import clock from '../../access/images/header/clock.png'
 import logo from '../../access/images/header/logoDemo.png'
 import phone from '../../access/images/header/phone.png'
+import { Link } from "react-router-dom"
 export default function Header() {
     return (
         <header>
-            <div class="heder_top">
+            <div class="header_top">
                 <div>
                     <p> Ремонт и обслуживание автомобилей</p>
                     <div class="place">
@@ -20,15 +21,15 @@ export default function Header() {
                     </div>
                 </div>
             </div>
-            <div className='heder_bottom menu'>
+            <div className='header_bottom menu'>
                 <img className="logo" src={logo}/>
                 <nav className='First'>
-                    <a href="">Главная</a>
-                    <a href="./module/about_center/about_center.htm">О тех-центре</a>
-                    <a href=''>Услуги</a>
-                    <a href="./module/corporative/corporative.htm">Корпоративным клиентам</a>
-                    <a href=''>Гарантия</a>
-                    <a>Контакты</a>
+                    <Link to="">Главная</Link>
+                    <Link to="/about_center">О тех-центре</Link>
+                    <Link to=''>Услуги</Link>
+                    <Link to="/corporative">Корпоративным клиентам</Link>
+                    <Link to=''>Гарантия</Link>
+                    <Link>Контакты</Link>
                 </nav>
                 <div className="order">
                     <img className="phone" src={phone} alt=''/>
